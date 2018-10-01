@@ -1,0 +1,86 @@
+/*----------------------------------------
+			Exchangerix
+	http://www.exchangerix.com
+----------------------------------------*/
+
+body {
+	font-family: Helvetica, Arial, Tahoma, Verdana, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+	color: #000000;
+}
+
+a {
+	color: #369DDB;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #96E706;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Oswald', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #777;
+	padding: 0;
+	margin: 0;
+}
+
+.page-signin {
+  /*background: #1c2a42 url(../images/bg_header.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
+  background: #F7F7F7;
+}
+@media (max-width: 480px) {
+  .page-signin {
+    padding-top: 20px;
+  }
+}
+.section-signin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -225px 0 0 -180px;
+  width: 340px;
+  height: 450px;
+}
+@media (max-width: 480px) {
+  .section-signin {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+}
+
+.login_box {
+	background: #FFF;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.btn {
+	border: 1px solid #64C3EF;
+	background: #64C3EF;
+	border: 1px solid #64C3EF;;
+	color: #FFFFFF;
+}
+
+.btn:hover, .btn:active {
+	color: #FFF;
+	background: #8DCE25;
+	border: 1px solid #8DCE25;
+}
+
+.btn:focus {
+	outline: 0;
+}

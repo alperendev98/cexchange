@@ -1,0 +1,11 @@
+Options -Indexes
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /
+
+<FilesMatch "\.inc.php">
+  order deny,allow
+  deny from all
+</FilesMatch>
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
